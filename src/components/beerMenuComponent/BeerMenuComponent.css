@@ -1,0 +1,7 @@
+.beerMenu {
+    width: 50vw;
+    height: 50vh;
+    background-image: url(../../images/sportsArenas/ducks.jpg);
+    background-position: center;
+    background-size: cover;
+}

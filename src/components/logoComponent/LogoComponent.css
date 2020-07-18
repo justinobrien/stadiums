@@ -1,0 +1,13 @@
+.logoComponent { 
+    height: 100%;
+    width: 100%;
+    background: url('../../images/marketing/origin-4-logo-png-transparent.png') no-repeat;
+    background-position: center;
+    background-size: 10em;
+}
+
+@media (min-width: 1000px) {
+    .logoComponent {
+        background-size: 30rem;
+    }
+}
