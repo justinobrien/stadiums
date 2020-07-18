@@ -6,6 +6,7 @@
     "@types/react": "^16.9.43",
     "@types/react-router-dom": "^5.1.5",
     "react": "^16.11.0",
+    "react-background-slideshow": "^1.0.4",
     "react-dom": "^16.11.0",
     "react-perfect-scrollbar": "^1.5.8",
     "react-router-dom": "^5.1.2",
