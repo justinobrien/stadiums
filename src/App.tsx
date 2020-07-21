@@ -8,8 +8,6 @@ import {
 
 import NewPlace from './pages/places/NewPlace';
 import LandingPage from './pages/landingPage/LandingPage';
-import SimpleBarReact from 'simplebar-react';
-import 'simplebar/dist/simplebar.min.css';
 
 const App = () => {
   return (
