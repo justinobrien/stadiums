@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroComponent from '../../components/heroComponent/HeroComponent.js';
+import HeroComponent from '../../components/heroComponent/HeroComponent';
 import BeerMenuComponent from '../../components/beerMenuComponent/BeerMenuComponent';
 import SpecialEventsComponent from '../../components/specialEventsComponent/SpecialEventsComponent';
 import SimpleBarReact from 'simplebar-react';
