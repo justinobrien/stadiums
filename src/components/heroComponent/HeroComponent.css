@@ -1,7 +1,58 @@
+.hero-container {
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+}
 .hero {
-    width: 100vw;
-    height: 100vh;
     background-image: url(../../images/sportsArenas/beavers.jpg);
     background-position: center;
     background-size: cover;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+}
+  
+  .hero {
+    animation: move 20s infinite ease;
+    /* Add infinite to loop. */
+    
+    -ms-animation: move 20s infinite ease;
+    -webkit-animation: move 20s infinite ease;
+    -moz-animation: move 20s infinite ease;
+  }
+  
+  @keyframes move {
+    0% {
+      -webkit-transform-origin: bottom left;
+      -moz-transform-origin: bottom left;
+      -ms-transform-origin: bottom left;
+      -o-transform-origin: bottom left;
+      transform-origin: bottom left;
+      transform: scale(1.0);
+      -ms-transform: scale(1.0);
+      /* IE 9 */
+      
+      -webkit-transform: scale(1.0);
+      /* Safari and Chrome */
+      
+      -o-transform: scale(1.0);
+      /* Opera */
+      
+      -moz-transform: scale(1.0);
+      /* Firefox */
+    }
+    100% {
+      transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      /* IE 9 */
+      
+      -webkit-transform: scale(1.5);
+      /* Safari and Chrome */
+      
+      -o-transform: scale(1.2);
+      /* Opera */
+      
+      -moz-transform: scale(1.2);
+      /* Firefox */
+    }
 }

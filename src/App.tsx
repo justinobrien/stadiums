@@ -13,19 +13,17 @@ import 'simplebar/dist/simplebar.min.css';
 
 const App = () => {
   return (
-    <SimpleBarReact>
-      <Router>
-        <Switch>
-          <Route path="/" exact>
-            <LandingPage />
-          </Route>
-          <Route path="/places/new" exact>
-            <NewPlace />
-          </Route>
-          <Redirect to="/" />
-        </Switch>
-      </Router>
-    </SimpleBarReact>
+    <Router>
+      <Switch>
+        <Route path="/" exact>
+          <LandingPage />
+        </Route>
+        <Route path="/places/new" exact>
+          <NewPlace />
+        </Route>
+        <Redirect to="/" />
+      </Switch>
+    </Router>
   );
 };
 

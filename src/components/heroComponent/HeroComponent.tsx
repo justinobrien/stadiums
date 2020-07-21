@@ -5,9 +5,10 @@ import './HeroComponent.css';
 
 const HeroComponent = () => {
   return (
-    <div className='hero'>
+    <div className='hero-container'>
       <LogoComponent />
-    </div> 
+      <div className='hero'></div>
+    </div>
   );
 };
 
