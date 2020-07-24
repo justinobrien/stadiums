@@ -3,25 +3,27 @@ import HeroComponent from '../../components/heroComponent/HeroComponent';
 import BeerMenuComponent from '../../components/beerMenuComponent/BeerMenuComponent';
 import SpecialEventsComponent from '../../components/specialEventsComponent/SpecialEventsComponent';
 import './LandingPage.css';
-import ScrollButtonComponent from '../../components/scrollButtonComponent/ScrollButtonComponent';
 import { Link, animateScroll as scroll } from "react-scroll";
+import EntertainmentComponent from '../../components/entertainmentComponent/EntertainmentComponent';
+import FoodMenuComponent from '../../components/foodMenuComponent/FoodMenuComponent';
 
 const LandingPage = () => {
   return (
     <div className="landing-page-div">
-      <Link
-          activeClass="active"
-          to="section1"
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration={500}
-          className="link-container"
-      > <span className="link-button"></span> </Link>
+      <Link activeClass="active" to="section1" spy={true} smooth={true} className="link-container" duration={700}>
+        <span className="link-button"></span>
+      </Link>
       <HeroComponent />
-      <div className="row section1">
+      <div className="row section section1">
         <BeerMenuComponent />
         <SpecialEventsComponent />
+      </div>
+      <div className="row section">
+        <EntertainmentComponent />
+        <BeerMenuComponent />
+      </div>
+      <div className="single section">
+        <FoodMenuComponent />
       </div>
       <div className="row section">
         <SpecialEventsComponent />

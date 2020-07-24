@@ -1,0 +1,36 @@
+.foodMenu {
+    width: 100vw;
+    height: 50vh;
+    background: linear-gradient(to bottom right, black, rgb(25, 25, 35));
+    background-position: center;
+    background-size: cover;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    height: 50vh;
+    width: 20vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: red;
+}
+
+.specials {
+    background-image: url(../../images/stadiums-menu-pg1.jpg);
+}
+
+.lunch {
+    background-image: url(../../images/stadiums-menu-regular.jpg);
+}
+
+.breakfast {
+    background-image: url(../../images/stadiums-menu-regular.jpg);
+}
+
+.standard {
+    background-image: url(../../images/stadiums-menu-regular.jpg);
+}

@@ -3,11 +3,18 @@
     height: 100%;
     overflow-x: hidden;
     overflow: hidden;
+    scroll-snap-type: mandatory;
+    scroll-behavior: smooth;
 }
 
 .row {
     display: flex;
     flex-direction: row;
+}
+
+.single {
+    height: 50vh;
+    width: 100vw;
 }
 
 .link-button {
@@ -29,4 +36,8 @@
     width: 100%;
     height: 100%;
     z-index: 9;
+}
+
+.section {
+    scroll-snap-align: center;
 }
