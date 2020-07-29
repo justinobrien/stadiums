@@ -12,11 +12,6 @@
     flex-direction: row;
 }
 
-.single {
-    height: 50vh;
-    width: 100vw;
-}
-
 .link-button {
     display: block;
     height: 3rem;
@@ -25,10 +20,18 @@
     background-image: url(../../images/icons/down-arrow.png);
     background-size: cover;
     background-repeat: no-repeat;
+    color: white;
     position: absolute;
 
     top: 75vh;
     left: calc(50vw - 1.5rem);
+}
+
+@media (min-width: 1000px) {
+    .link-button {
+        height: 4rem;
+        width: 4rem;
+    }
 }
 
 .link-containter {

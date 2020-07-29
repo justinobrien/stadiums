@@ -6,6 +6,7 @@ import './LandingPage.css';
 import { Link, animateScroll as scroll } from "react-scroll";
 import EntertainmentComponent from '../../components/entertainmentComponent/EntertainmentComponent';
 import FoodMenuComponent from '../../components/foodMenuComponent/FoodMenuComponent';
+import { ReactComponent as SVGDownArrow } from '../../images/icons/svg-down-arrow.svg';
 
 const LandingPage = () => {
   return (
@@ -22,7 +23,7 @@ const LandingPage = () => {
         <EntertainmentComponent />
         <BeerMenuComponent />
       </div>
-      <div className="single section">
+      <div className="section">
         <FoodMenuComponent />
       </div>
       <div className="row section">

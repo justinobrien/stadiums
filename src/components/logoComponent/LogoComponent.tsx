@@ -4,7 +4,10 @@ import Image from 'react';
 
 const LogoComponent = () => {
   return (
-    <div className='logoComponent'></div>
+    <div className='logoComponent'>
+      <div className="subtitle"> Sports Bar </div>
+    </div>
+    
   );
 };
 
