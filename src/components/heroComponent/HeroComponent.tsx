@@ -9,7 +9,7 @@ import Background4 from '../../images/sportsArenas/timbers_compressed.jpg';
 import Background5 from '../../images/sportsArenas/blazers_compressed.jpg';
 import Background6 from '../../images/sportsArenas/winterhawks_compressed.jpg';
 
-const backgrounds: string[] = [Background1, Background2, Background3, Background4, Background5, Background6];
+const backgrounds: string[] = [Background2, Background3, Background4, Background5, Background6, Background1];
 let backgroundIter: number = 0;
 
 const HeroComponent = () => {
