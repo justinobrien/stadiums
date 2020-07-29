@@ -27,13 +27,6 @@
     left: calc(50vw - 1.5rem);
 }
 
-@media (min-width: 1000px) {
-    .link-button {
-        height: 4rem;
-        width: 4rem;
-    }
-}
-
 .link-containter {
     display: block;
     width: 100%;
