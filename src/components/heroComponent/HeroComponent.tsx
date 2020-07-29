@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react';
 import LogoComponent from '../logoComponent/LogoComponent';
 import './HeroComponent.css';
 
-import Background1 from '../../images/sportsArenas/beavers.jpg';
-import Background2 from '../../images/sportsArenas/ducks.jpg';
-import Background3 from '../../images/sportsArenas/mariners.jpg';
-import Background4 from '../../images/sportsArenas/timbers.jpg';
-import Background5 from '../../images/sportsArenas/blazers.png';
-import Background6 from '../../images/sportsArenas/winterhawks.png';
+import Background1 from '../../images/sportsArenas/beavers_compressed.jpg';
+import Background2 from '../../images/sportsArenas/ducks_compressed.jpg';
+import Background3 from '../../images/sportsArenas/mariners_compressed.jpg';
+import Background4 from '../../images/sportsArenas/timbers_compressed.jpg';
+import Background5 from '../../images/sportsArenas/blazers_compressed.jpg';
+import Background6 from '../../images/sportsArenas/winterhawks_compressed.jpg';
 
 const backgrounds: string[] = [Background1, Background2, Background3, Background4, Background5, Background6];
 let backgroundIter: number = 0;
