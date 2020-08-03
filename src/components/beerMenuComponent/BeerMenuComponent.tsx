@@ -1,9 +1,16 @@
 import React from 'react';
 import './BeerMenuComponent.css';
+import { NavLink } from 'react-router-dom';
+
+const navigateToBeerPage = () => {
+  
+}
 
 const BeerMenuComponent = () => {
   return (
-    <div className='beerMenu'></div>
+    <div className='beerMenu'>
+      <NavLink to="/beermenu"> Beer menu </NavLink>
+    </div>
   );
 };
 
