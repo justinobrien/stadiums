@@ -1,9 +1,13 @@
 .foodMenu {
     width: 100vw;
-    height: 50vh;
+    height: 100vh;
     background: linear-gradient(to bottom right, black, rgb(25, 25, 35));
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
 }
 
 .row {
@@ -13,11 +17,13 @@
 }
 
 .menu {
-    height: 50vh;
-    width: 20vw;
+    height: 98vh;
+    min-width: 40vw;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: red;
+    align-items: center;
 }
 
 .specials {
