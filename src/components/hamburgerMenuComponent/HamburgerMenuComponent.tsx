@@ -1,10 +1,12 @@
 import React from 'react';
-import './LinkMenuComponent.css';
+import './HamburgerMenuComponent.css';
 
-const LinkMenuComponent = () => {
+const HamburgerMenuComponent = () => {
   return (
-    <div className='linkMenu'></div>
+    <div className='hamburgerMenu'>
+      
+    </div>
   );
 };
 
-export default LinkMenuComponent;
+export default HamburgerMenuComponent;
