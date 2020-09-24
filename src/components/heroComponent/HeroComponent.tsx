@@ -16,7 +16,7 @@ const HeroComponent = () => {
   const [backgroundStyle, setBackgroundStyle] = useState({ backgroundImage: `url(${Background1})` });
 
   useEffect(() => {
-    const timer = setInterval(() => {
+    setInterval(() => {
       backgroundIter++;
 
       if (backgroundIter > 5) {

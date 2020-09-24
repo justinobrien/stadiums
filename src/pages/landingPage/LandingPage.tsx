@@ -2,11 +2,11 @@ import React from 'react';
 import HeroComponent from '../../components/heroComponent/HeroComponent';
 import BeerMenuComponent from '../../components/beerMenuComponent/BeerMenuComponent';
 import SpecialEventsComponent from '../../components/specialEventsComponent/SpecialEventsComponent';
-import './LandingPage.css';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import EntertainmentComponent from '../../components/entertainmentComponent/EntertainmentComponent';
 import FoodMenuComponent from '../../components/foodMenuComponent/FoodMenuComponent';
-import { ReactComponent as SVGDownArrow } from '../../images/icons/svg-down-arrow.svg';
+
+import './LandingPage.css';
 
 const LandingPage = () => {
   return (
