@@ -46,8 +46,6 @@ class App extends React.Component {
 
   render() {
     let backdrop = null;
-    let sideDrawer = null;
-
     if (this.state.backdropVisible) {
       backdrop = <BackdropComponent click={this.backdropClickHandler}/>;
     }
@@ -57,6 +55,7 @@ class App extends React.Component {
         <SideDrawerComponent show={this.state.sideDrawerOpen} linkClicked={this.navigationHandler} />
         {backdrop}
         <NavButton click={this.navButtonClickHander}/>
+
         <Switch>
           <Route path="/" exact>
             <LandingPage />
