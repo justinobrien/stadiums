@@ -1,5 +1,5 @@
 import React from 'react';
-import './HamburgerMenuComponent.css';
+import './HamburgerMenuComponent.scss';
 
 const HamburgerMenuComponent = () => {
   return (

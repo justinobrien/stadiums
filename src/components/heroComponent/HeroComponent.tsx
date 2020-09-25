@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import LogoComponent from '../logoComponent/LogoComponent';
-import './HeroComponent.css';
+import './HeroComponent.scss';
 
 import Background1 from '../../images/sportsArenas/beavers_compressed.jpg';
 import Background2 from '../../images/sportsArenas/ducks_compressed.jpg';

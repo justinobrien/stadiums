@@ -1,5 +1,5 @@
 import React from 'react';
-import './NavButton.css';
+import './NavButton.scss';
 
 const NavButton = (props) => {
     return (

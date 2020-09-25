@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
@@ -16,6 +16,8 @@ import NavButton from './components/NavButton/NavButton';
 import BackdropComponent from './components/Backdrop/BackdropComponent';
 
 import './App.css';
+import { textChangeRangeIsUnchanged } from 'typescript';
+import SideDrawerComponent from './components/SideDrawerComponent/SideDrawerComponent';
 
 class App extends React.Component {
   state = {
@@ -35,14 +37,24 @@ class App extends React.Component {
       backdropVisible: true,
     });
   };
+  navigationHandler = () => {
+    this.setState({
+      sideDrawerOpen: false,
+      backdropVisible: false,
+    });
+  };
 
   render() {
     let backdrop = null;
+    let sideDrawer = null;
+
     if (this.state.backdropVisible) {
       backdrop = <BackdropComponent click={this.backdropClickHandler}/>;
     }
+    
     return (
       <Router>
+        <SideDrawerComponent show={this.state.sideDrawerOpen} linkClicked={this.navigationHandler} />
         {backdrop}
         <NavButton click={this.navButtonClickHander}/>
         <Switch>
