@@ -7,25 +7,37 @@
     height: 100vh;
     z-index: 200;
     background-color: darkslategrey;
-    box-shadow: 1px 0px 7px rgba($color: #000000, $alpha: 0.5);
+    box-shadow: 2px 0px 7px rgba($color: #000000, $alpha: 0.5);
     width: 70%;
     max-width: 400px;
 
     top: 0;
     left: 0;
-    background: rgb(190, 37, 37);
+    background: var(--primary-color-1-background);
     overflow: hidden;
 
     transform: translateX(-100%);
-    transition: transform 0.2s ease-out;
+    transition: transform 0.25s ease-out;
 }
 
 .sideDrawer.open {
     transform: translateX(0);
-    transition: transform 0.2s ease-out;
+    transition: transform 0.25s ease-out;
 }
 
 .link {
     margin-left: 3rem;
     color: white;
+
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-shadow: 0 0 4px rgb(245, 199, 199);
 }

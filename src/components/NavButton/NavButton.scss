@@ -10,6 +10,12 @@
     justify-content: space-around;
 }
 
+.navButtonComponent::after {
+    content: 'menu';
+    color: white;
+    position: absolute;
+    left: 2rem;
+}
 .navButtonComponent:hover {
     cursor: pointer;
 }

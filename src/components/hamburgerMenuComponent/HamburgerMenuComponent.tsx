@@ -3,9 +3,7 @@ import './HamburgerMenuComponent.scss';
 
 const HamburgerMenuComponent = () => {
   return (
-    <div className='hamburgerMenu'>
-      
-    </div>
+    <div className='hamburgerMenu'></div>
   );
 };
 

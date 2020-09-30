@@ -1,0 +1,24 @@
+.beerMenu {
+    width: 50vw;
+    height: 50vh;
+    background-image: url(../../images/beer.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    text-align: center;    
+}
+
+.beerMenu-navlink {
+    position: relative;
+    align-self: flex-end;
+
+    background-color: var(--primary-color-1-background);
+    color: white;
+    padding: 1em 1.5em;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}

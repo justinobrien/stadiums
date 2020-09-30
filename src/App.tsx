@@ -15,7 +15,7 @@ import Calender from './pages/calender/Calender';
 import NavButton from './components/NavButton/NavButton';
 import BackdropComponent from './components/Backdrop/BackdropComponent';
 
-import './App.css';
+import './App.scss';
 import { textChangeRangeIsUnchanged } from 'typescript';
 import SideDrawerComponent from './components/SideDrawerComponent/SideDrawerComponent';
 
