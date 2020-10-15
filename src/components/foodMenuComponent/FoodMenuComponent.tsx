@@ -5,6 +5,15 @@ const FoodMenuComponent = () => {
   const [background, setBackground] = useState('lunch-bg menu');
   const [prevBackground, setPrevBackground] = useState('lunch-bg menu');
 
+  const clickBg = (bg: string, event?: any) => {
+    console.warn('clickBg ', prevBackground);
+    if (bg === prevBackground) {
+      console.warn('navigate to ', prevBackground);
+    } else {
+      setBg(bg, event);
+    }
+  }
+
   const setBg = (bg: string, event?: any) => {
     event?.stopPropagation();
 
@@ -35,19 +44,18 @@ const FoodMenuComponent = () => {
         button1 button2
         button3 button4
        */}
-       <div className={background} onClick={() => { navigateTo()}}>
+       <div className={background}>
          <div className='food-menu-button-wrapper'>
           <div className='row'>
-            <div className='btn' onClick={(e) => { setBg('breakfast-bg', e)}} onMouseOver={() => previewBg('breakfast-bg')} onMouseOut={() => restoreBg()}> breakfast </div>
-            <div className='btn' onClick={(e) => { setBg('lunch-bg', e)}} onMouseOver={() => previewBg('lunch-bg')} onMouseOut={() => restoreBg()}> lunch </div>
+            <button className='btn' onClick={(e) => { clickBg('breakfast-bg', e)}} onMouseOver={() => previewBg('breakfast-bg')} onMouseOut={() => restoreBg()}> breakfast </button>
+            <button className='btn' onClick={(e) => { clickBg('lunch-bg', e)}} onMouseOver={() => previewBg('lunch-bg')} onMouseOut={() => restoreBg()}> lunch </button>
           </div>
           <div className='row'>
-            <div className='btn' onClick={(e) => { setBg('dinner-bg', e)}} onMouseOver={() => previewBg('dinner-bg')} onMouseOut={() => restoreBg()}> dinner </div>
-            <div className='btn' onClick={(e) => { setBg('happy-bg', e)}} onMouseOver={() => previewBg('happy-bg')} onMouseOut={() => restoreBg()}> happy </div>
+            <button className='btn' onClick={(e) => { clickBg('dinner-bg', e)}} onMouseOver={() => previewBg('dinner-bg')} onMouseOut={() => restoreBg()}> dinner </button>
+            <button className='btn' onClick={(e) => { clickBg('happy-bg', e)}} onMouseOver={() => previewBg('happy-bg')} onMouseOut={() => restoreBg()}> happy </button>
           </div>
          </div>
        </div>
-       
     </div>
   );
 };

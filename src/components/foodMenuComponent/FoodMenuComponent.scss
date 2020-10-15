@@ -6,12 +6,6 @@
     justify-content: center;
     flex-direction: column;
 
-    @media only screen and (min-width: 600px) {
-        .foodMenu {
-            width: 50vw;
-        }
-    }
-
     .btn {
        position: relative;
        align-self: flex-end;
@@ -25,6 +19,9 @@
        font-weight: bold;
        text-align: center;
        text-decoration: none;
+
+       box-shadow: none;
+       border: none;
 
        width: 10rem;
 
@@ -44,6 +41,12 @@
 
        &.selected {
            text-decoration: underline;
+       }
+
+       &:focus {
+           outline: 0;
+           background-size: 100%, auto;
+           text-shadow: 0 0 4px #f5c7c7;
        }
 
        &::before {
@@ -101,5 +104,11 @@
     
     .dinner-bg {
         background-image: url(../../images/food/steak-dinner.jpg);
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .foodMenu {
+        width: 50vw;
     }
 }

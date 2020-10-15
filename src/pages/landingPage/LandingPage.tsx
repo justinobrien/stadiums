@@ -20,15 +20,8 @@ const LandingPage = () => {
         <SpecialEventsComponent />
       </div>
       <div className="landing-layout section">
-        <EntertainmentComponent />
-        <BeerMenuComponent />
-      </div>
-      <div className="section">
         <FoodMenuComponent />
-      </div>
-      <div className="landing-layout section">
-        <SpecialEventsComponent />
-        <BeerMenuComponent />
+        <EntertainmentComponent />
       </div>
     </div>
   );
