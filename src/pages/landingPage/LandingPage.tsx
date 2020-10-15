@@ -15,18 +15,18 @@ const LandingPage = () => {
         <span className="link-button"></span>
       </Link>
       <HeroComponent />
-      <div className="row section section1">
+      <div className="landing-layout section section1">
         <BeerMenuComponent />
         <SpecialEventsComponent />
       </div>
-      <div className="row section">
+      <div className="landing-layout section">
         <EntertainmentComponent />
         <BeerMenuComponent />
       </div>
       <div className="section">
         <FoodMenuComponent />
       </div>
-      <div className="row section">
+      <div className="landing-layout section">
         <SpecialEventsComponent />
         <BeerMenuComponent />
       </div>

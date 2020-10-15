@@ -1,7 +1,13 @@
 .entertainment {
-    width: 50vw;
+    width: 100vw;
     height: 50vh;
     background-image: url(../../images/pinball-placeholder.jpg);
     background-position: center;
     background-size: cover;
+}
+
+@media only screen and (min-width: 600px) {
+    .entertainment {
+        width: 50vw;
+    }
 }

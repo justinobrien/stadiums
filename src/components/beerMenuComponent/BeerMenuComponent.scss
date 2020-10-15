@@ -1,11 +1,18 @@
 .beerMenu {
-    width: 50vw;
+    width: 100vw;
     height: 50vh;
     background-image: url(../../images/beer.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
     text-align: center;    
+}
+
+@media only screen and (min-width: 600px) {
+    .beerMenu {
+        width: 50vw;
+        height: 50vh;
+    }
 }
 
 .beerMenu-navlink {

@@ -1,7 +1,13 @@
 .specialEvents {
-    width: 50vw;
+    width: 100vw;
     height: 50vh;
     background-image: url(../../images/ufc-placeholder.png);
     background-position: center;
     background-size: cover;
+}
+
+@media only screen and (min-width: 600px) {
+    .specialEvents {
+        width: 50vw;
+    }
 }
