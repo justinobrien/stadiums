@@ -8,7 +8,10 @@ import {
 
 import LandingPage from './pages/landingPage/LandingPage';
 import BeerMenu from './pages/beerMenu/BeerMenu';
-import FoodMenu from './pages/foodMenu/FoodMenu';
+import HappyHourMenu from './pages/food/HappyHourMenu';
+import LunchMenu from './pages/food/LunchMenu';
+import DinnerMenu from './pages/food/DinnerMenu';
+import BreakfastMenu from './pages/food/BreakfastMenu';
 import Entertainment from './pages/entertainment/Entertainment';
 import Information from './pages/information/Information';
 import Calender from './pages/calender/Calender';
@@ -63,6 +66,18 @@ class App extends React.Component {
           <Route path="/beermenu" exact>
             <BeerMenu />
           </Route>
+          <Route path="/lunchmenu" exact>
+            <LunchMenu />
+          </Route>
+          <Route path="/breakfastmenu" exact>
+            <BreakfastMenu />
+          </Route>
+          <Route path="/dinnermenu" exact>
+            <DinnerMenu />
+          </Route>
+          <Route path="/happyhourmenu" exact>
+            <HappyHourMenu />
+          </Route>
           <Route path="/calender" exact>
             <Calender />
           </Route>
@@ -71,9 +86,6 @@ class App extends React.Component {
           </Route>
           <Route path="/information" exact>
             <Information />
-          </Route>
-          <Route path="/menu" exact>
-            <FoodMenu />
           </Route>
           <Redirect to="/" />
         </Switch>
