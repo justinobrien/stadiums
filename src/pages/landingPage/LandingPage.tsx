@@ -7,6 +7,7 @@ import EntertainmentComponent from '../../components/entertainmentComponent/Ente
 import FoodMenuComponent from '../../components/foodMenuComponent/FoodMenuComponent';
 
 import './LandingPage.css';
+import CalenderComponent from '../../components/calenderComponent/CalenderComponent';
 
 const LandingPage = () => {
   return (
@@ -20,8 +21,11 @@ const LandingPage = () => {
         <SpecialEventsComponent />
       </div>
       <div className="landing-layout section">
-        <FoodMenuComponent />
         <EntertainmentComponent />
+        <FoodMenuComponent />
+      </div>
+      <div>
+        <CalenderComponent />
       </div>
     </div>
   );

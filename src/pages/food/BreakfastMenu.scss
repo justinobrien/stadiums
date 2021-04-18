@@ -1,0 +1,78 @@
+.breakfast-main {
+    height: 100vw;
+    width: 100vw;
+    background: white;
+    color: grey;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+hr {
+    height: 1px;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    align-self: center;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.drink-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.subtitle-1 {
+    color: black;
+}
+.price {
+    background: darkslategrey;
+    align-self: flex-end;
+    color: white;
+    border: 1px solid darkslategrey;
+    white-space: nowrap;
+    width: auto;
+}
+.item-description {
+    color: grey;
+}
+.item-name {
+    width: auto;
+    white-space: nowrap;
+    color: black
+}
+
+@media only screen and (min-width: 600px) {
+    .breakfast-main {
+        padding: 4rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .drink-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .subtitle-1 {
+        color: black;
+    }
+    .price {
+        background: darkslategrey;
+        align-self: flex-end;
+        color: white;
+        border: 1px solid darkslategrey;
+        white-space: nowrap;
+        width: auto;
+    }
+    .item-description {
+        color: grey;
+    }
+    .item-name {
+        width: auto;
+        white-space: nowrap;
+        color: black
+    }
+}
