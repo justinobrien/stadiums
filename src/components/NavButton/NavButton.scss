@@ -15,6 +15,7 @@
     color: white;
     position: absolute;
     left: 2rem;
+    z-index: 1000;
 }
 .navButtonComponent:hover {
     cursor: pointer;

@@ -1,12 +1,18 @@
 .breakfast-main {
-    height: 100vw;
-    width: 100vw;
-    background: white;
-    color: grey;
-    padding: 4rem;
+    height: 100%;
+    width: 100%;
+    background:  rgba(0, 0, 0, 0.8);
+    color: white;
     display: flex;
+    padding: 1rem;
     flex-direction: column;
+    position: relative;
 }
+
+.body {
+    background: white;
+}
+
 hr {
     height: 1px;
     width: 100%;
@@ -42,7 +48,28 @@ hr {
 .item-name {
     width: auto;
     white-space: nowrap;
-    color: black
+    color: white;
+}
+.breakfast-outer {
+    background: white;
+    height: 100vh;
+    width: 100vw;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.breakfast-outer::before {
+    background-image: url(../../images/food/breakfast.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    content: "";
 }
 
 @media only screen and (min-width: 600px) {
@@ -57,7 +84,7 @@ hr {
         justify-content: center;
     }
     .subtitle-1 {
-        color: black;
+        color: white;
     }
     .price {
         background: darkslategrey;
@@ -73,6 +100,12 @@ hr {
     .item-name {
         width: auto;
         white-space: nowrap;
-        color: black
+        color: white;
+    }
+    .breakfast-outer {
+        padding: 4rem;
+    }
+    .breakfast-main {
+        width: 60vw;
     }
 }

@@ -1,4 +1,4 @@
-import React, { ReactComponentElement, ReactFragment } from 'react';
+import React, { ReactFragment } from 'react';
 import './BreakfastMenu.scss';
 import drinks from '../../menus/breakfast/breakfast_drinks.json'; // Relative path to your File
 
@@ -7,7 +7,7 @@ const warning = 'Consuming raw or undercooked meats, seafood, shellfish or eggs 
 let breakfastMenu: Array<ReactFragment> = [];
 
 const BreakfastMenu = () => {
-  if (breakfastMenu.length == 0) {
+  if (breakfastMenu.length < 1) {
 
     breakfastMenu.push(<div className="subtitle-1"> Drink Menu </div>);
     drinks.map(d => breakfastMenu.push(
@@ -17,12 +17,19 @@ const BreakfastMenu = () => {
           <hr></hr>
           <div className='price'>{d.price}</div>
         </div>
-        <div className="item-description"> {d.desc} </div>
+        <div className="item-description">{d.desc}</div>
       </div>)
     );
   }
 
-  return (<div className="breakfast-main">{breakfastMenu}</div>);
+  return (
+    <div className="breakfast-outer">
+      <div className="breakfast-main">
+        <div className="background"><span className="transparent-overlay"></span></div>
+        {breakfastMenu}
+      </div>
+    </div>
+  );
 };
 
 export default BreakfastMenu;
