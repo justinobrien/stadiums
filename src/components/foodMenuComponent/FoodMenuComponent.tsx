@@ -4,8 +4,8 @@ import './FoodMenuComponent.scss';
 
 
 const FoodMenuComponent = () => {
-  const [background, setBackground] = useState('lunch-bg menu');
-  const [prevBackground, setPrevBackground] = useState('lunch-bg menu');
+  const [background, setBackground] = useState('specials-bg menu');
+  const [prevBackground, setPrevBackground] = useState('specials-bg menu');
   const history = useHistory();
 
   const clickBg = (bg: string) => {
@@ -40,7 +40,7 @@ const FoodMenuComponent = () => {
          <div className='food-menu-button-wrapper'>
           <div className='row'>
             <button className='btn' onClick={(e) => { clickBg('breakfast')}} onMouseOver={() => previewBg('breakfast')} onMouseOut={() => restoreBg()}> breakfast </button>
-            <button className='btn' onClick={(e) => { clickBg('lunch')}} onMouseOver={() => previewBg('lunch')} onMouseOut={() => restoreBg()}> lunch </button>
+            <button className='btn' onClick={(e) => { clickBg('specials')}} onMouseOver={() => previewBg('specials')} onMouseOut={() => restoreBg()}> Specials </button>
           </div>
           <div className='row'>
             <button className='btn' onClick={(e) => { clickBg('dinner')}} onMouseOver={() => previewBg('dinner')} onMouseOut={() => restoreBg()}> dinner </button>

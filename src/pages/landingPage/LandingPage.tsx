@@ -5,6 +5,7 @@ import SpecialEventsComponent from '../../components/specialEventsComponent/Spec
 import { Link } from "react-scroll";
 import EntertainmentComponent from '../../components/entertainmentComponent/EntertainmentComponent';
 import FoodMenuComponent from '../../components/foodMenuComponent/FoodMenuComponent';
+import SportsComponent from '../../components/sportsComponent/SportsComponent';
 
 import './LandingPage.css';
 import CalenderComponent from '../../components/calenderComponent/CalenderComponent';
@@ -18,7 +19,7 @@ const LandingPage = () => {
       <HeroComponent />
       <div className="landing-layout section section1">
         <BeerMenuComponent />
-        <SpecialEventsComponent />
+        <SportsComponent />
       </div>
       <div className="landing-layout section">
         <EntertainmentComponent />

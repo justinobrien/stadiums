@@ -1,4 +1,4 @@
-.breakfast-main {
+.menu-main {
     height: 100%;
     width: 100%;
     background:  rgba(0, 0, 0, 0.75);
@@ -61,7 +61,7 @@ hr {
     white-space: nowrap;
     color: white;
 }
-.breakfast-outer {
+.menu-outer {
     background: white;
     height: 100vh;
     width: 100vw;
@@ -71,7 +71,7 @@ hr {
     position: relative;
 }
 
-.breakfast-outer::before {
+.menu-outer::before {
     background-image: url(../../images/food/breakfast.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,10 +84,11 @@ hr {
 }
 
 @media only screen and (min-width: 600px) {
-    .breakfast-main {
+    .menu-main {
         padding: 4rem;
         display: flex;
         flex-direction: column;
+        width: 60vw;
     }
     .drink-item {
         display: flex;
@@ -110,10 +111,7 @@ hr {
         white-space: nowrap;
         color: white;
     }
-    .breakfast-outer {
+    .menu-outer {
         padding: 4rem;
-    }
-    .breakfast-main {
-        width: 60vw;
     }
 }

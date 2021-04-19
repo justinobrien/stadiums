@@ -1,5 +1,5 @@
 import React, { ReactFragment } from 'react';
-import './BreakfastMenu.scss';
+import './menu.scss';
 import drinks from '../../jsonfiles/breakfast/breakfast_drinks.json'; // Relative path to your File
 import breakfastpg2 from '../../jsonfiles/breakfast/breakfast_pg2.json'; // Relative path to your File
 import sides from '../../jsonfiles/breakfast/breakfast_sides.json'; // Relative path to your File
@@ -12,7 +12,7 @@ let breakfastMenu: Array<ReactFragment> = [];
 
 const addMenuItem = (item: any) => {
   breakfastMenu.push(
-    <div className="drink-item">
+    <div className="menu-item">
       <div className="row"> 
         <div className="item-name">{item.name}</div>
         <hr></hr>
@@ -41,8 +41,8 @@ const BreakfastMenu = () => {
   }
 
   return (
-    <div className="breakfast-outer">
-      <div className="breakfast-main">
+    <div className="menu-outer">
+      <div className="menu-main">
         {breakfastMenu}
       </div>
     </div>

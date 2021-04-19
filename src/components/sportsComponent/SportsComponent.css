@@ -1,0 +1,28 @@
+.sports {
+    width: 100vw;
+    height: 50vh;
+    background: black;
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 600px) {
+    .sports {
+        width: 50vw;
+    }
+}
+
+.UFC {
+    height: 100%;
+    width: 100%;
+
+    background-image: url('../../images/logo/UFC-Logo.png');
+    background-position: center;
+    background-size: cover;
+}
+      /* <link className="NHL"></link>
+      <link className="NBA"></link>
+      <link className="NHL"></link>
+      <link className="MLB"></link>
+      <link className="Blazers"></link>
+      <link className="Timbers"></link> */

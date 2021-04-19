@@ -9,7 +9,7 @@ const SideDrawerComponent = (props) => {
   }
   const options = [
       <NavLink to="/breakfastmenu" onClick={props.linkClicked} className="link"> Breakfast menu </NavLink>,
-      <NavLink to="/lunchmenu" onClick={props.linkClicked} className="link"> Lunch menu </NavLink>,
+      <NavLink to="/specialsmenu" onClick={props.linkClicked} className="link"> Daily Specials </NavLink>,
       <NavLink to="/dinnermenu" onClick={props.linkClicked} className="link"> Dinner menu </NavLink>,
       <NavLink to="/happyhourmenu" onClick={props.linkClicked} className="link"> Happy hour </NavLink>,
   ];
@@ -19,9 +19,10 @@ const SideDrawerComponent = (props) => {
         <NavLink to="/" onClick={props.linkClicked} className="link"> Home </NavLink>
         <NavLink to="/beermenu" onClick={props.linkClicked} className="link"> Beer menu </NavLink>
         <NavLink to="/breakfastmenu" onClick={props.linkClicked} className="link"> Breakfast </NavLink>
-        <NavLink to="/lunchmenu" onClick={props.linkClicked} className="link"> Lunch </NavLink>
+        <NavLink to="/specialsmenu" onClick={props.linkClicked} className="link"> Daily Specials </NavLink>
         <NavLink to="/dinnermenu" onClick={props.linkClicked} className="link"> Dinner </NavLink>
         <NavLink to="/happyhourmenu" onClick={props.linkClicked} className="link"> Happy hour specials </NavLink>
+        <NavLink to="/about" onClick={props.linkClicked} className="link"> About </NavLink>
     </div>
   );
 };
