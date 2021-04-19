@@ -1,0 +1,38 @@
+[
+    {
+        "price": "$7.00",
+        "name": "Stadiums Breakfast Plate",
+        "desc": "Eggs, hash browns and toast. Served with your choice of 2 slices of bacon or 2 sausages."
+    },
+    {
+        "price": "$6.00",
+        "name": "Biscuit & Gravy",
+        "desc": "Sunrise Bagel Biscuit covered in homemade sausage gravy served with 2 eggs."
+    },
+    {
+        "price": "$8.00",
+        "name": "Breakfast Burrito",
+        "desc": "Homestyle Potatoes, Scrambled eggs and Cheddar Cheese. Plus your choice of any 3: (Ham, Bacon, Sausage, Onion, Green Pepper, Mushroom or Tomato)"
+    },
+    {
+        "price": "$8.00",
+        "name": "French Toast",
+        "desc": "2 slices served with eggs and your choice of Sausage or Bacon."
+    },
+    {
+        "price": "$8.00",
+        "name": "Pancakes",
+        "desc": "2 pancakes, served with eggs and your choice of Sausage or Bacon."
+    },
+    {
+        "price": "$12.00",
+        "name": "Chicken Fried Steak",
+        "desc": "Served with homemade sausage gravy, 2 eggs, hash browns and toast."
+    },
+    {
+        "price": "$6.00",
+        "name": "Breakfast Sandwich",
+        "desc": "Fried egg, bacon, ham, american cheese and mayo. Served on sour dough bread."
+    }
+]
+
