@@ -1,12 +1,15 @@
 .breakfast-main {
     height: 100%;
     width: 100%;
-    background:  rgba(0, 0, 0, 0.8);
+    background:  rgba(0, 0, 0, 0.75);
     color: white;
     display: flex;
     padding: 1rem;
     flex-direction: column;
     position: relative;
+
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 .body {
@@ -32,8 +35,16 @@ hr {
     justify-content: center;
 }
 .subtitle-1 {
-    color: black;
+    color: red;
+    font-weight: bold;
+
+    margin-top: 1rem;
 }
+
+.no-margin {
+    margin-top: 0;
+}
+
 .price {
     background: darkslategrey;
     align-self: flex-end;
@@ -82,9 +93,6 @@ hr {
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
-    .subtitle-1 {
-        color: white;
     }
     .price {
         background: darkslategrey;
