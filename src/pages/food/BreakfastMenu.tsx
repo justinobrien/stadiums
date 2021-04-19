@@ -1,6 +1,6 @@
 import React, { ReactFragment } from 'react';
 import './BreakfastMenu.scss';
-import drinks from '../../menus/breakfast/breakfast_drinks.json'; // Relative path to your File
+import drinks from '../../jsonfiles/breakfast/breakfast_drinks.json'; // Relative path to your File
 
 const breakfastItems = [];
 const warning = 'Consuming raw or undercooked meats, seafood, shellfish or eggs may increase your risk of foodborne illness, especially if you have certain medical conditions';
