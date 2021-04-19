@@ -1,0 +1,37 @@
+[
+    {
+        "price": "$2.00",
+        "name": "Homemade Sausage Gravy",
+        "desc": ""
+    },
+    {
+        "price": "$3.00",
+        "name": "Plate of hashbrowns",
+        "desc": ""
+    },
+    {
+        "price": "$3.00",
+        "name": "Sausage or Bacon (2)",
+        "desc": ""
+    },
+    {
+        "price": "$4.00",
+        "name": "French toast or Pancake (2)",
+        "desc": ""
+    },
+    {
+        "price": "$2.00",
+        "name": "Eggs (2)",
+        "desc": ""
+    },
+    {
+        "price": "$1.00",
+        "name": "Toast (1 pc)",
+        "desc": ""
+    },
+    {
+        "price": "$3.00",
+        "name": "Biscuit (1)",
+        "desc": ""
+    }
+]

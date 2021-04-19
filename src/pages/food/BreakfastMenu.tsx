@@ -25,7 +25,6 @@ const BreakfastMenu = () => {
   return (
     <div className="breakfast-outer">
       <div className="breakfast-main">
-        <div className="background"><span className="transparent-overlay"></span></div>
         {breakfastMenu}
       </div>
     </div>

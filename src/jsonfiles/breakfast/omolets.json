@@ -1,0 +1,31 @@
+[
+    {
+        "price": "$8.00",
+        "name": "Denver Omolet",
+        "desc": "Ham, Green Pepper, Onion and Cheddar cheese"
+    },
+    {
+        "price": "$8.00",
+        "name": "Ham & Cheese Omolet",
+        "desc": "Ham & Cheddar cheese"
+    },
+    {
+        "price": "$10.00",
+        "name": "Meat Lovers Omolet",
+        "desc": "Ham, Bacon, Sausage and cheddar cheese"
+    },
+    {
+        "price": "$9.00",
+        "name": "Veggie Omolet",
+        "desc": "Onion, green pepper, mushroom, tomato, spinach, and cheddar cheese"
+    }
+]
+
+
+
+
+
+
+
+
+
