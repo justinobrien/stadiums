@@ -6,24 +6,24 @@ const SportsComponent = () => {
   return (
     <div className='sports'>
       <div className="row">
-        <a href="https://www.ufc.com/events">
+        <a className="sports-component-icon" href="https://www.ufc.com/events">
           <div className="UFC"></div>
         </a>
-        <a href="https://www.nhl.com/schedule">
+        <a className="sports-component-icon" href="https://www.nhl.com/schedule">
           <div className="NHL"></div>
         </a>
-        <a href="https://www.nba.com/schedule">
+        <a className="sports-component-icon" href="https://www.nba.com/schedule">
           <div className="NBA"></div>
         </a>
       </div>
       <div className="row">
-        <a href="https://www.nba.com/blazers/schedule">
+        <a className="sports-component-icon" href="https://www.nba.com/blazers/schedule">
           <div className="Blazers"></div>
         </a>
-        <a href="https://www.timbers.com/schedule">
+        <a className="sports-component-icon" href="https://www.timbers.com/schedule">
           <div className="Timbers"></div>
         </a>
-        <a href="https://www.mlb.com/schedule">
+        <a className="sports-component-icon" href="https://www.mlb.com/schedule">
           <div className="MLB"></div>
         </a>
       </div>

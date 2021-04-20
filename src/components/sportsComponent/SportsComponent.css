@@ -10,22 +10,8 @@
     align-items: center;
     flex-direction: column;
 }
-
-@media only screen and (min-width: 600px) {
-    .sports {
-        width: 50vw;
-    }
-}
-a {
+.sports-component-icon {
     margin: 1rem;
-}
-.UFC {
-    height: 4rem;
-    width: 6rem;
-
-    background-image: url('../../images/logo/UFC-Logo.png');
-    background-position: center;
-    background-size: cover;
 }
 
 .NHL {
@@ -68,3 +54,18 @@ a {
     background-position: center;
     background-size: cover;
 }
+.UFC {
+    height: 4rem;
+    width: 6rem;
+
+    background-image: url('../../images/logo/UFC-Logo.png');
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 600px) {
+    .sports {
+        width: 50vw;
+    }
+}
+
