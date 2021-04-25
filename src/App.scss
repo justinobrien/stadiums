@@ -11,3 +11,9 @@ Router {
 :root {
     --primary-color-1: rgb(190, 37, 37);
 }
+
+@media only screen and (max-width: 385px) {
+    :root > * {
+        font-size: 65%;
+    }
+}

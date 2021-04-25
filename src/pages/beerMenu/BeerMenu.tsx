@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './BeerMenu.scss';
 // TODO: add beer link and styling
 
 const BeerMenu = () => {
