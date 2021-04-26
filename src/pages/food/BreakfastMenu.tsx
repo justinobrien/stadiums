@@ -11,8 +11,6 @@ const warning = 'Consuming raw or undercooked meats, seafood, shellfish or eggs 
 let breakfastMenu: Array<ReactFragment> = [];
 
 const BreakfastMenu = () => {
-  console.warn('env', process.env.PUBLIC_URL);
-
   if (breakfastMenu.length < 1) {
     breakfastMenu.push(<div className="subtitle-1">Omolets</div>);
     omolets.map(d => addMenuItem(breakfastMenu, d));
