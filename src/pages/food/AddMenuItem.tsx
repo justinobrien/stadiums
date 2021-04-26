@@ -1,10 +1,12 @@
 import React from 'react';
 
 const addMenuItem = (arr: Array<any>, item: any) => {
+
     arr.push(
       <div className="menu-item">
+        {item?.day?.length ? <div className="item-day subtitle-1">{item.day}</div>: null}
+        {item?.img?.length ?<div className="item-img" style={{ background: `url(../images/food/breakfast.jpg)`, width: '100%', height: 'auto'}} /> : null}
         <div className="row">
-          <div className="item-img">{item.img}</div>
           <div className="item-name">{item.name}</div>
           <hr></hr>
           <div className='price'>{item.price}</div>
