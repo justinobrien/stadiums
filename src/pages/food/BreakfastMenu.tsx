@@ -11,20 +11,22 @@ const warning = 'Consuming raw or undercooked meats, seafood, shellfish or eggs 
 let breakfastMenu: Array<ReactFragment> = [];
 
 const BreakfastMenu = () => {
+  console.warn('env', process.env.PUBLIC_URL);
+
   if (breakfastMenu.length < 1) {
-    breakfastMenu.push(<div className="subtitle-1 no-margin">Omolets</div>);
+    breakfastMenu.push(<div className="subtitle-1">Omolets</div>);
     omolets.map(d => addMenuItem(breakfastMenu, d));
   
-    breakfastMenu.push(<div className="subtitle-1"> Traditional Breakfast </div>);
+    breakfastMenu.push(<div className="subtitle-1 margin-top"> Traditional Breakfast </div>);
     breakfastpg2.map(d => addMenuItem(breakfastMenu, d));
 
-    breakfastMenu.push(<div className="subtitle-1"> Skillets </div>);
+    breakfastMenu.push(<div className="subtitle-1 margin-top"> Skillets </div>);
     skillets.map(d => addMenuItem(breakfastMenu, d));
 
-    breakfastMenu.push(<div className="subtitle-1"> Sides </div>);
+    breakfastMenu.push(<div className="subtitle-1 margin-top"> Sides </div>);
     sides.map(d => addMenuItem(breakfastMenu, d));
 
-    breakfastMenu.push(<div className="subtitle-1">Drinks</div>);
+    breakfastMenu.push(<div className="subtitle-1 margin-top">Drinks</div>);
     drinks.map(d => addMenuItem(breakfastMenu, d));
   }
 

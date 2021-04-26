@@ -1,11 +1,12 @@
 [
     {
-        "img": "src\\images\\food\\breakfast.jpg",
+        "img": "images/food/breakfast.jpg",
         "price": "$8.00",
         "name": "Denver Omolet",
         "desc": "Ham, Green Pepper, Onion and Cheddar cheese"
     },
     {
+        "img": "images/food/lunch-burger.png",
         "price": "$8.00",
         "name": "Ham & Cheese Omolet",
         "desc": "Ham & Cheddar cheese"

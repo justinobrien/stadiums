@@ -11,7 +11,9 @@
     overflow: auto;
     overflow-x: hidden;
 }
-
+.margin-top {
+    margin-top: 1rem;
+}
 .body {
     background: white;
 }
@@ -37,8 +39,6 @@ hr {
 .subtitle-1 {
     color: var(--primary-color-1);
     font-weight: bold;
-
-    margin-top: 1rem;
 }
 
 .no-margin {
@@ -98,6 +98,7 @@ hr {
 @media only screen and (min-width: 600px) {
     .menu-main {
         padding: 4rem;
+        padding-top: 2rem;
         display: flex;
         flex-direction: column;
         width: 60vw;
