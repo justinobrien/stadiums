@@ -12,7 +12,7 @@ const SpecialsMenu = () => {
   }
 
   return (
-    <div className="lunch-menu-outer">
+    <div className="menu-outer specials-menu-outer">
       <div className="menu-main">
         {dailySpecialsMenu}
       </div>

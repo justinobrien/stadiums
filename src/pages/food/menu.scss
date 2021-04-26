@@ -84,26 +84,15 @@ hr {
     content: "";
 }
 
-.specials-menu-outer {
-    background: white;
-    height: 100vh;
-    width: 100vw;
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-
 .specials-menu-outer::before {
     background-image: url(../../images/food/lunch-burger.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.7;
-    position: absolute;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    content: "";
+}
+
+.dinner-menu-outer::before {
+    background-image: url(../../images/food/steak-dinner.jpg);
+}
+.happy-menu-outer::before {
+    background-image: url(../../images/food/happy-hour.jpg);
 }
 
 @media only screen and (min-width: 600px) {
