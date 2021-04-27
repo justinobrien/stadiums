@@ -2,23 +2,23 @@
     {
         "img": "images/food/breakfast.jpg",
         "price": "$8.00",
-        "name": "Denver Omolet",
+        "name": "Denver Omelet",
         "desc": "Ham, Green Pepper, Onion and Cheddar cheese"
     },
     {
         "img": "images/food/lunch-burger.png",
         "price": "$8.00",
-        "name": "Ham & Cheese Omolet",
+        "name": "Ham & Cheese Omelet",
         "desc": "Ham & Cheddar cheese"
     },
     {
         "price": "$10.00",
-        "name": "Meat Lovers Omolet",
+        "name": "Meat Lovers Omelet",
         "desc": "Ham, Bacon, Sausage and cheddar cheese"
     },
     {
         "price": "$9.00",
-        "name": "Veggie Omolet",
+        "name": "Veggie Omelet",
         "desc": "Onion, green pepper, mushroom, tomato, spinach, and cheddar cheese"
     }
 ]

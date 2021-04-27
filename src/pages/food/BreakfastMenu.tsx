@@ -3,7 +3,7 @@ import './menu.scss';
 import drinks from '../../jsonfiles/breakfast/breakfast_drinks.json'; // Relative path to your File
 import breakfastpg2 from '../../jsonfiles/breakfast/breakfast_pg2.json'; // Relative path to your File
 import sides from '../../jsonfiles/breakfast/breakfast_sides.json'; // Relative path to your File
-import omolets from '../../jsonfiles/breakfast/omolets.json'; // Relative path to your File
+import omelets from '../../jsonfiles/breakfast/omelets.json'; // Relative path to your File
 import skillets from '../../jsonfiles/breakfast/skillets.json'; // Relative path to your File
 import addMenuItem from './AddMenuItem';
 
@@ -12,8 +12,8 @@ let breakfastMenu: Array<ReactFragment> = [];
 
 const BreakfastMenu = () => {
   if (breakfastMenu.length < 1) {
-    breakfastMenu.push(<div className="subtitle-1">Omolets</div>);
-    omolets.map(d => addMenuItem(breakfastMenu, d));
+    breakfastMenu.push(<div className="subtitle-1">Omelets</div>);
+    omelets.map(d => addMenuItem(breakfastMenu, d));
   
     breakfastMenu.push(<div className="subtitle-1 margin-top"> Traditional Breakfast </div>);
     breakfastpg2.map(d => addMenuItem(breakfastMenu, d));
