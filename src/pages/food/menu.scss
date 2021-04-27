@@ -1,3 +1,12 @@
+// item-img from AddMenuItem.tsx
+.item-img {
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .menu-main {
     height: 100%;
     width: 100%;
@@ -94,7 +103,6 @@ hr {
 .happy-menu-outer::before {
     background-image: url(../../images/food/happy-hour.jpg);
 }
-
 @media only screen and (min-width: 600px) {
     .menu-main {
         padding: 4rem;
@@ -126,5 +134,9 @@ hr {
     }
     .menu-outer {
         padding: 4rem;
+    }
+
+    .item-img {
+        height: 45vh;
     }
 }
