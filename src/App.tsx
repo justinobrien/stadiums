@@ -21,6 +21,7 @@ import BackdropComponent from './components/Backdrop/BackdropComponent';
 import './App.scss';
 import { textChangeRangeIsUnchanged } from 'typescript';
 import SideDrawerComponent from './components/SideDrawerComponent/SideDrawerComponent';
+import AboutUs from './pages/about/AboutUs';
 
 class App extends React.Component {
   state = {
@@ -86,6 +87,9 @@ class App extends React.Component {
           </Route>
           <Route path="/information" exact>
             <Information />
+          </Route>
+          <Route path="/about" exact>
+            <AboutUs />
           </Route>
           <Redirect to="/" />
         </Switch>

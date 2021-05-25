@@ -1,44 +1,62 @@
 [
     {
         "img": "",
-        "price": "",
-        "name": "",
+        "price": "$3",
+        "name": "Two hard tacos",
         "desc": ""
     },
     {
         "img": "",
-        "price": "",
-        "name": "",
+        "price": "$4",
+        "name": "Chips w/ cheese dip",
         "desc": ""
     },
     {
         "img": "",
-        "price": "",
-        "name": "",
+        "price": "$5",
+        "name": "Wedge Salad",
         "desc": ""
     },
     {
         "img": "",
-        "price": "",
-        "name": "",
+        "price": "$5",
+        "name": "Garlic Parmesan fries",
         "desc": ""
     },
     {
         "img": "",
-        "price": "",
-        "name": "",
+        "price": "$5",
+        "name": "Buffalo Chicken sliders",
         "desc": ""
     },
     {
         "img": "",
-        "price": "",
-        "name": "",
+        "price": "$5",
+        "name": "BBQ Pork Sliders",
         "desc": ""
     },
     {
         "img": "",
-        "price": "",
-        "name": "",
+        "price": "$5",
+        "name": "Pepperoni Pizza Fries",
+        "desc": ""
+    },
+    {
+        "img": "",
+        "price": "$6",
+        "name": "Spice Mac & Cheese",
+        "desc": ""
+    },
+    {
+        "img": "",
+        "price": "$6",
+        "name": "Fried Ravioli",
+        "desc": ""
+    },
+    {
+        "img": "",
+        "price": "$6",
+        "name": "Chicken Quesadilla",
         "desc": ""
     }
 ]

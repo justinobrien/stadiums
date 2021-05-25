@@ -8,6 +8,7 @@ let menu: Array<ReactFragment> = [];
 
 const HappyHourMenu = () => {
   if (menu.length < 1) {
+    menu.push(<div className="subtitle-1">Happy Hour!  2pm-6pm Mon-Fri </div>);
     happyhouritems.map((item) => addMenuItem(menu, item));
   }
 
