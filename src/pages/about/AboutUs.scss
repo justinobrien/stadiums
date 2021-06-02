@@ -1,6 +1,12 @@
 .about-us {
     width: 100%;
     background: red;
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh;
     padding: 4rem;
+
+    .icon {
+        position: relative;
+        top: 0.2em;
+    }
 }

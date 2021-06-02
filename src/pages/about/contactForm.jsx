@@ -16,8 +16,10 @@ class ContactForm extends React.Component {
     }
   
     handleSubmit(event) {
+      // validation?
       alert('A name was submitted: ' + this.state.comment);
       event.preventDefault();
+      // popup to thank them for their feedback
     }
   
     render() {
