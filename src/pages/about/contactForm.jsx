@@ -1,42 +1,32 @@
 import React from 'react';
+import { collapseTextChangeRangesAcrossMultipleVersions } from 'typescript';
+import './contactForm.scss'
 
 class ContactForm extends React.Component {
     constructor(props) {
       super(props);
-      this.state = {value: ''};
+      this.state = {comment: ''};
   
       this.handleChange = this.handleChange.bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
     }
   
     handleChange(event) {
-      this.setState({value: event.target.value});
+      this.setState({comment: event.target.comment});
     }
   
     handleSubmit(event) {
-      alert('A name was submitted: ' + this.state.value);
+      alert('A name was submitted: ' + this.state.comment);
       event.preventDefault();
     }
   
     render() {
         return (
-            <form onSubmit={this.handleSubmit}>
-                <label>
-                    Name:
-                    <input type="text" name="name" />
-                </label>
-                <label>
-                    Email:
-                    <input type="text" name="email" />
-                </label>
-                <label>
-                    Phone number:
-                    <input type="text" name="phone" />
-                </label>
-                <label>
-                    Comments:
-                    <input type="text" name="comments" />
-                </label>
+            <form onSubmit={this.handleSubmit} className="contact-form">
+                <input type="text" placeholder="name" name="name" />
+                <input type="text" placeholder="email" name="email" />
+                <input type="text" placeholder="phone number" name="phone" />
+                <input type="textarea" onChange={this.handleChange} value={this.state.comment} required="true" cols="30" rows="5" className="comments" placeholder="comments" name="comments" />
                 <input type="submit" value="Submit" />
             </form>
         )

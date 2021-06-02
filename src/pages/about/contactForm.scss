@@ -1,0 +1,25 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;   
+
+    input[type="text" i] {
+        padding: 4px 4px;
+        margin: 0.5em;
+
+        border-radius: 6px;
+    }
+
+    input[type="textarea" i] {
+        padding: 4px 4px;
+        margin: 0.5em;
+        border-radius: 6px;
+    }
+
+    textarea {
+        outline: none;
+        resize: none;
+        overflow: auto;
+    }
+}
