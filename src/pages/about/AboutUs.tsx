@@ -12,7 +12,7 @@ const AboutUs = () => {
             desktop layout
             contact styling
         */}
-        <div> Welcome to Stadiums, Milwalkie's premier sports bar where we provide a white color experience at blue color prices, we do this by making our food in house using high quality local ingredients and by hiring experienced, friendly wait staff.</div>
+        <div> Welcome to Stadiums, Milwalkie's premier sports bar where we provide a white collar experience at blue collar prices, we do this by making our food in house using high quality local ingredients and by hiring experienced, friendly wait staff.</div>
         <div className="googleMapGoesHere"></div>
         <div className="contactInfo">
             <p>
