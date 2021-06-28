@@ -12,24 +12,32 @@ const AboutUs = () => {
             desktop layout
             contact styling
         */}
-        <div> Welcome to Stadiums, Milwalkie's premier sports bar where we provide a white collar experience at blue collar prices, we do this by making our food in house using high quality local ingredients and by hiring experienced, friendly wait staff.</div>
-        <div className="googleMapGoesHere"></div>
-        <div className="contactInfo">
-            <p>
-                <LocationOn className="icon" fontSize="small"/>16065 SE McLoughlin Blvd <br/> Milwaukie, OR 97267 <br/>
-                <MailOutline className="icon" fontSize="small"/>info@stadiumssportsgrill.com <br/>
-                <Phone className="icon" fontSize="small"/>503-305-8410
-            </p>
+        <div className="aboutUs-background"> </div>
+        <div className="aboutusInfo"> Welcome to Stadiums, Milwalkie's premier sports bar where we provide a white collar experience at blue collar prices, we do this by making our food in house using high quality local ingredients and by hiring experienced, friendly wait staff.</div>
+        <div className="content-wrapper">
+            <div className="content-wrapper info">
+                <div className="contactInfo">
+                    <p>
+                        <LocationOn className="icon" fontSize="small"/>16065 SE McLoughlin Blvd <br/> Milwaukie, OR 97267 <br/>
+                        <MailOutline className="icon" fontSize="small"/>info@stadiumssportsgrill.com <br/>
+                        <Phone className="icon" fontSize="small"/>503-305-8410
+                    </p>
+                </div>
+
+                <div className="opperationInfo">
+                    <h3> HOURS OF OPERATION </h3>
+                    <p>
+                        Saturday 10AM to 11PM <br/>
+                        Sunday 10AM to 10PM <br/>
+                        Monday and Tuesday noon to 10 PM <br/>
+                        Wednesday noon to 11PM <br/>
+                        Thursday and Friday 11AM to 11PM
+                    </p>
+                </div>
+            </div>
+            <ContactForm />
         </div>
-        <h3> HOURS OF OPERATION </h3>
-        <p>
-            Saturday 10AM to 11PM <br/>
-            Sunday 10AM to 10PM <br/>
-            Monday and Tuesday noon to 10 PM <br/>
-            Wednesday noon to 11PM <br/>
-            Thursday and Friday 11AM to 11PM
-        </p>
-        <ContactForm />
+        
     </div>);
 };
 

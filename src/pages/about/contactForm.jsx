@@ -24,15 +24,20 @@ class ContactForm extends React.Component {
   
     render() {
         return (
-            <form onSubmit={this.handleSubmit} className="contact-form">
-                <input type="text" placeholder="name" name="name" />
-                <input type="text" placeholder="email" name="email" />
-                <input type="text" placeholder="phone number" name="phone" />
-                <input type="textarea" onChange={this.handleChange} value={this.state.comment} required="true" cols="30" rows="5" className="comments" placeholder="comments" name="comments" />
-                <input type="submit" value="Submit" />
-            </form>
+            <div className="form-wrapper">
+              <h3 className="form-header">SEND US A MESSAGE</h3>
+              <form onSubmit={this.handleSubmit} className="contact-form">
+                  <input type="text" placeholder="name" name="name" />
+                  <input type="text" placeholder="email" name="email" />
+                  <input type="text" placeholder="phone number" name="phone" />
+                  <textarea rows="5" onChange={this.handleChange} value={this.state.comment} required={true} className="comments" placeholder="comments" name="comments"></textarea>
+                  <input className="submit-button" type="submit" value="Submit" />
+              </form>
+            </div>
         )
     }
 };
+
+// <input type="textarea" onChange={this.handleChange} value={this.state.comment} required="true" className="comments" placeholder="comments" name="comments" />
 
 export default ContactForm;
