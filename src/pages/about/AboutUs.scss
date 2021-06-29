@@ -1,34 +1,56 @@
 .about-us {
     min-height: 100vh;
-
+    .aboutUs-background {
+        position: absolute;
+        height: 100%;
+        height: 8rem;
+        width: 100%;
+        background: url('../../images/logo/StadiumsLogo3.png') no-repeat;
+        background-position: center;
+        background-size: 22em;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
     .mobile-layout, .desktop-layout {
+        display: none;
         width: 100%;
         min-height: 100vh;
         background: #39393ae5;
         color: white;
-        padding: 4rem;
+        padding: 3rem;
         
         .icon {
             position: relative;
             top: 0.2em;
         }
         .aboutusInfo {
-            margin-bottom: 2rem;
+            margin: 1rem 0rem;
         }
         .content-wrapper {
             display: flex;
             flex-direction: row;
-            justify-content: space-evenly;
+
             .info {
                 flex-direction: column;
-                width: 60%;
             }
         }
+        .opperationInfo {
+            margin: 0.5rem 0 0.5rem 0;
+        }
+    }
+    .mobile-layout {
+        display: block;
     }
 
     @media only screen and (min-width: 600px) {
         .desktop-layout {
             display: block;
+            padding: 4rem;
+
+            .aboutusInfo {
+                margin-bottom: 2rem;
+            }
         }
         .mobile-layout {
             display: none;
@@ -36,3 +58,31 @@
     }
 }
 
+// .about-us {
+    // min-height: 100vh;
+    
+    // .mobile-layout, .desktop-layout {
+    //     display: none;
+    //     width: 100%;
+    //     min-height: 100vh;
+    //     background: #39393ae5;
+    //     color: white;
+    //     padding: 3rem;
+        
+    //     .icon {
+    //         position: relative;
+    //         top: 0.2em;
+    //     }
+    //     .aboutusInfo {
+    //         margin-bottom: 2rem;
+    //     }
+    //     .content-wrapper {
+    //         display: flex;
+    //         flex-direction: row;
+
+    //         .info {
+    //             flex-direction: column;
+    //             width: 60%;
+    //         }
+    //     }
+    // }
