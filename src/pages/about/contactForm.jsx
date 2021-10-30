@@ -16,6 +16,7 @@ class ContactForm extends React.Component {
     }
   
     handleSubmit(event) {
+      // TODO: add https://www.npmjs.com/package/react-google-recaptcha
       // validation?
       alert('A name was submitted: ' + this.state.comment);
       event.preventDefault();
