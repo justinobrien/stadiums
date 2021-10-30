@@ -43,10 +43,10 @@ const AboutUs = () => {
             <div className="aboutusInfo"> Welcome to Stadiums, Milwalkie's premier sports bar where we provide a white collar experience at blue collar prices, we do this by making our food in house using high quality local ingredients and by hiring experienced, friendly wait staff.</div>
             <div className="content-wrapper">
                 <div className="content-wrapper info">
-                    <div className="contactInfo row">
-                        <div className="column"><LocationOn className="icon" fontSize="small"/> 16065 SE McLoughlin Blvd Milwaukie, OR 97267</div>
-                        <div className="column"><MailOutline className="icon" fontSize="small"/> info@stadiumssportsgrill.com</div>
-                        <div className="column"><Phone className="icon" fontSize="small"/> 503-305-8410</div>
+                    <div className="contactInfo column">
+                        <div className="row"><LocationOn className="icon" fontSize="small"/> 16065 SE McLoughlin Blvd Milwaukie, OR 97267</div>
+                        <div className="row"><MailOutline className="icon" fontSize="small"/> info@stadiumssportsgrill.com</div>
+                        <div className="row"><Phone className="icon" fontSize="small"/> 503-305-8410</div>
                     </div>
                     <div className="opperationInfo row">
                         <div className="column">Mon <div>12pm-10pm</div></div>
