@@ -1,9 +1,10 @@
 import React from 'react';
 import './SideDrawerComponent.scss';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 const SideDrawerComponent = (props) => {
   let drawerClasses = 'sideDrawer';
+  
   if (props.show) {
     drawerClasses = 'sideDrawer open';
   }

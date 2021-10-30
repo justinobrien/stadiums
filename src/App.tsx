@@ -3,7 +3,8 @@ import {
   BrowserRouter as Router,
   Route,
   Redirect,
-  Switch
+  Switch,
+  useLocation
 } from 'react-router-dom';
 
 import LandingPage from './pages/landingPage/LandingPage';
@@ -19,7 +20,6 @@ import NavButton from './components/NavButton/NavButton';
 import BackdropComponent from './components/Backdrop/BackdropComponent';
 
 import './App.scss';
-import { textChangeRangeIsUnchanged } from 'typescript';
 import SideDrawerComponent from './components/SideDrawerComponent/SideDrawerComponent';
 import AboutUs from './pages/about/AboutUs';
 
@@ -58,7 +58,7 @@ class App extends React.Component {
       <Router>
         <SideDrawerComponent show={this.state.sideDrawerOpen} linkClicked={this.navigationHandler} />
         {backdrop}
-        <NavButton click={this.navButtonClickHander}/>
+        <NavButton click={this.navButtonClickHander} />
 
         <Switch>
           <Route path="/" exact>

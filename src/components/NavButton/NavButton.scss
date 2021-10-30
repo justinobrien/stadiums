@@ -17,6 +17,7 @@
     left: 2rem;
     z-index: 1000;
 }
+
 .navButtonComponent:hover {
     cursor: pointer;
 }
@@ -25,4 +26,15 @@
     width: 100%;
     height: 2px;
     background-color: white;
+}
+
+.navButton-line.colorPrimary1 {
+    background-color: var(--primary-color-1);
+}
+.navButtonComponent.colorPrimary1::after {
+    content: 'menu';
+    position: absolute;
+    color: var(--primary-color-1);
+    left: 2rem;
+    z-index: 1000;
 }
