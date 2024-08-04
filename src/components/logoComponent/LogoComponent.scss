@@ -1,13 +1,13 @@
 .logoComponent {
     position: absolute;
+    margin-left: auto;
     height: 100%;
-    height: 20rem;
     width: 100%;
     background: url('../../images/logo/StadiumsLogo3.png') no-repeat;
     background-position: center;
-    background-size: 22em;
+    background-size: 80%;
     z-index: 1;
-    top: calc(40vh - 10rem);
+    top: -10vh;
 }
 
 .subtitle {
@@ -24,8 +24,8 @@
 
 @media (min-width: 1000px) {
     .logoComponent {
-        background-size: 34em;
-        top: calc(40vh - 10rem);
+        background-size: 90%;
+        top: -5vh;
     }
     .subtitle {
         top: 30vh;

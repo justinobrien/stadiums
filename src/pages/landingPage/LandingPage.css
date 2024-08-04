@@ -28,9 +28,12 @@
     background-repeat: no-repeat;
     color: var(--primary-color-1);
     position: absolute;
-
     top: 75vh;
     left: calc(50vw - 1.5rem);
+}
+
+.link-button:hover {
+    cursor: pointer;
 }
 
 .link-containter {

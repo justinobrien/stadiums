@@ -11,6 +11,7 @@ import LandingPage from './pages/landingPage/LandingPage';
 import BeerMenu from './pages/beerMenu/BeerMenu';
 import HappyHourMenu from './pages/food/HappyHourMenu';
 import DailySpecials from './pages/food/DailySpecials';
+import OnlineOrdering from './pages/food/OnlineOrdering';
 import DinnerMenu from './pages/food/DinnerMenu';
 import BreakfastMenu from './pages/food/BreakfastMenu';
 import Entertainment from './pages/entertainment/Entertainment';
@@ -67,8 +68,8 @@ class App extends React.Component {
           <Route path="/beermenu" exact>
             <BeerMenu />
           </Route>
-          <Route path="/specialsmenu" exact>
-            <DailySpecials />
+          <Route path="/orderonline" exact>
+            <OnlineOrdering />
           </Route>
           <Route path="/breakfastmenu" exact>
             <BreakfastMenu />

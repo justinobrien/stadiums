@@ -19,6 +19,7 @@ const SideDrawerComponent = (props) => {
     <div className={drawerClasses}>
         <NavLink to="/" onClick={props.linkClicked} className="link"> Home </NavLink>
         <NavLink to="/beermenu" onClick={props.linkClicked} className="link"> Beer menu </NavLink>
+        <NavLink to="/orderonline" onClick={props.linkClicked} className="link"> Order Online </NavLink>
         <NavLink to="/breakfastmenu" onClick={props.linkClicked} className="link"> Breakfast </NavLink>
         <NavLink to="/specialsmenu" onClick={props.linkClicked} className="link"> Daily Specials </NavLink>
         <NavLink to="/dinnermenu" onClick={props.linkClicked} className="link"> Dinner </NavLink>
