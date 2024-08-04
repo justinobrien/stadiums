@@ -16,13 +16,16 @@
     .landing-layout {
         flex-direction: row;
     }
+    .link-button:hover {
+        cursor: pointer;
+    }
 }
 
 .link-button {
     display: block;
     height: 3rem;
     width: 3rem;
-    z-index: 10;
+    z-index: 1000;
     background-image: url(../../images/icons/down-arrow.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,10 +33,6 @@
     position: absolute;
     top: 75vh;
     left: calc(50vw - 1.5rem);
-}
-
-.link-button:hover {
-    cursor: pointer;
 }
 
 .link-containter {

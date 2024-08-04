@@ -14,6 +14,7 @@ const HappyHourMenu = () => {
 
   return (
     <div className="menu-outer happy-menu-outer">
+      <a className="button" href="/orderonline">Order Online</a>
       <div className="menu-main">
         {menu}
       </div>

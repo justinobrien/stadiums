@@ -14,6 +14,7 @@ const SpecialsMenu = () => {
   return (
     <div className="menu-outer specials-menu-outer">
       <div className="menu-main">
+      <a className="button" href="/orderonline">Order Online</a>
         {dailySpecialsMenu}
       </div>
     </div>

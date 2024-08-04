@@ -28,6 +28,21 @@ iframe {
 
     overflow: auto;
     overflow-x: hidden;
+
+    .button {
+        background-color: var(--primary-color-1);
+        border: solid;
+        border-radius: 3px 3px;
+        border-color: var(--primary-color-1);
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        :hover {
+            cursor: pointer;
+        }
+      }
 }
 .margin-top {
     margin-top: 1rem;

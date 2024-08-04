@@ -19,6 +19,7 @@
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.0",
     "react-slideshow-image": "^2.0.2",
+    "request": "^2.79.0",
     "sass": "^1.43.4",
     "typescript": "^3.9.7"
   },

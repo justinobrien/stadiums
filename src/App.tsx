@@ -71,6 +71,9 @@ class App extends React.Component {
           <Route path="/orderonline" exact>
             <OnlineOrdering />
           </Route>
+          <Route path="/specialsmenu" exact>
+            <DailySpecials />
+          </Route>
           <Route path="/breakfastmenu" exact>
             <BreakfastMenu />
           </Route>

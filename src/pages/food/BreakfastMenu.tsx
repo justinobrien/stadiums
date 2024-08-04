@@ -31,6 +31,7 @@ const BreakfastMenu = () => {
   return (
     <div className="menu-outer">
       <div className="menu-main">
+        <a className="button" href="/orderonline">Order Online</a>
         {breakfastMenu}
       </div>
     </div>

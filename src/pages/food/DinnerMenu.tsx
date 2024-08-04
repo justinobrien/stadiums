@@ -13,6 +13,7 @@ const DinnerMenu = () => {
 
   return (
     <div className="menu-outer dinner-menu-outer">
+      <a className="button" href="/orderonline">Order Online</a>
       <div className="menu-main">
         {menu}
       </div>
